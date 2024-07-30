@@ -22,5 +22,3 @@ from typing import Union
 def password_generator(char_num: int, includes: list, check_strength: bool = False)->Union[str, list]:
     pass
 
-def check_password_strength(password: str, return_type: bool = True)->Union[str, int]:
-    pass
