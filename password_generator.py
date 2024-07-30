@@ -6,7 +6,16 @@ from password_checker import check_password_strength
 
 
 def password_generator(char_num: int, includes: list = [], check_strength: bool = False)->Union[str, list]:
-    
+    """_summary_
+
+    Args:
+        char_num (int): _description_
+        includes (list, optional): _description_. Defaults to [].
+        check_strength (bool, optional): _description_. Defaults to False.
+
+    Returns:
+        Union[str, list]: _description_
+    """    
     password = []
     chars = []
     
