@@ -10,12 +10,11 @@ def check_password_strength(password: str, tagged: bool = True)->Union[str, int]
     tags = {90: 'very strong', 75: 'strong', 50: 'medium', 25: 'weak', 0: 'very weak'}
     
     password_point = len(password) * 5
-    
-    password_point = max(min(password_point, 100), 0)
+    password_point = max( min(password_point, 100), 0)
     
     if tagged:
-        for min, tag in tags:
-            if password_point >= min:
+        for min_point, tag in tags.items():
+            if password_point >= min_point:
                 return tag
         return tags[0]
     else:
