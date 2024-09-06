@@ -21,7 +21,7 @@ This is a simple educational project to create a basic password generator. The m
 
 To generate a password, you can use the `password_generator` function from the `password_generator.py` file. Here's an example:
 
-```
+```python
 from password_generator import password_generator
 
 # Generate a password with default settings
