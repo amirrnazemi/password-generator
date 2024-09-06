@@ -6,11 +6,12 @@ This is a simple educational project to create a basic password generator. The m
 
 ## Features
 
-- Generate random passwords.
-- Customize the length of the password.
-- Choose which character groups to include (uppercase letters, lowercase letters, numbers, special characters).
-- Display the strength level of the generated password.
+* Generate random passwords.
+* Customize the length of the password.
+* Choose which character groups to include (uppercase letters, lowercase letters, numbers, special characters).
+* Display the strength level of the generated password.
+* tests
 
 ## Requirements
 
-- Python 3.x
+* Python 3.x
